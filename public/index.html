@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body {
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      opacity: 0.8;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #00c6ff;
+      color: #000;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+    }
+
+    @media(max-width: 600px) {
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Web Developer | Designer | Freelancer</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      Passionate developer with experience in building modern web applications.
+      I enjoy solving problems and creating beautiful user experiences.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Company A</strong> - Frontend Developer (2023 - Present)</li>
+      <li><strong>Company B</strong> - Intern (2022 - 2023)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Education</h2>
+    <ul>
+      <li>Bachelor's in Computer Science</li>
+    </ul>
+  </div>
+
+  <div class="card skills">
+    <h2>Skills</h2>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>React</span>
+    <span>Python</span>
+  </div>
+
+  <div class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>E-commerce App</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>LinkedIn: linkedin.com/in/yourname</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
+
